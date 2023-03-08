@@ -1,0 +1,59 @@
+ul.tabs{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+ul.tabs li{
+  float: left;
+  padding:14px;
+  cursor: pointer;
+}
+ul.tabs li.active{
+  border-bottom: 3px solid #5f6dc5;
+}
+.clearfix{
+  border-bottom: 1px solid #dfe3e8;
+}
+.tab{
+  display: none;
+  padding:20px;
+}
+.tab.active{
+  display: block;
+}
+.rounded.mx-auto.d-block {
+  width: 100%;
+}
+.product_view{
+  margin: 0 20px;
+}
+.head_tab{
+  width: 33%;
+  text-align: center;
+}
+.head_tabs{
+  width: 34%;
+  text-align: center;
+}
+.Polaris-Button__Icon:last-child {
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+.Polaris-Connected__Item--connection:last-child *, .Polaris-Connected__Item--connection:last-child ::after {
+  height: 100%;
+}
+.Polaris-Select {
+  position: relative;
+  min-height: 3.6rem;
+}
+.Polaris-Select__Input{
+  background: transparent;
+  border: 1px solid transparent;
+  opacity: unset;
+  padding: .5rem 2.8rem .5rem 1.2rem;
+  cursor: pointer;
+}
+#setdata{
+  margin-left: 85%;
+  margin-top: 16px;
+}
